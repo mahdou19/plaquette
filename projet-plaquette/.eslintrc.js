@@ -1,4 +1,6 @@
 module.exports = {
+  "include": ["**/*.ts", "**/*.js"],
+   "allowJs": true,
   parser: '@typescript-eslint/parser',
   parserOptions: {
     project: 'tsconfig.json',
